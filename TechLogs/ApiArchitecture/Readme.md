@@ -1,6 +1,6 @@
 #API architecture in frontend
 
-###Stop fetching API method inside redux actions now,read the article below.
+###Stop requesting API inside redux actions now,read the article below.
 
 ##Read the article for better understanding
 
