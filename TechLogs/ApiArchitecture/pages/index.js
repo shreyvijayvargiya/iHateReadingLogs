@@ -1,7 +1,6 @@
 import React from 'react';
 import { fetchUsersApi } from '../Packages/api/user/dashboard';
 
-
 const App = () => {
 
     const [users, setUsers] = React.useState([]);
@@ -10,7 +9,7 @@ const App = () => {
     const fetchUsers = async () => {
         setLoader(true)
         const usersData = await fetchUsersApi();
-        // setUsers(data.data);
+        setUsers(usersData.data);
         // instead of updating data into state we will put this data in reducer via action
         // call you action here and add the usersData into the reducer state
         // once this is done put the loader off or 
@@ -21,15 +20,15 @@ const App = () => {
     // const data = useSelector(state => state);
     
 
-    const fetchUserFromStoreAndUpdateInState = () => {
-        // updaing data of reducer state to components useState
-        setUsers(data)
-    };
+    // const fetchUserFromStoreAndUpdateInState = () => {
+    //     updaing data of reducer state to components useState
+    //     setUsers(data)
+    // };
 
     
     React.useEffect(() => {
         fetchUsers();
-        fetchUserFromStoreAndUpdateInState();
+        // fetchUserFromStoreAndUpdateInState();
     }, []);
 
     return (

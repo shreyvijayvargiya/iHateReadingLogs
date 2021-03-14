@@ -1,4 +1,7 @@
-#Next JS architecture repository
+#API architecture in frontend
+
+###Stop fetching API method inside redux actions now,read the article below.
 
 ##Read the article for better understanding
-### https://shreyvijayvargiya26.medium.com/building-solid-next-js-architecture-a8c6702dc67d?source=follow_footer---------0----------------------------
+
+### https://shreyvijayvargiya26.medium.com/best-scalable-api-architecture-in-frontend-dc6bdd13bbaf
