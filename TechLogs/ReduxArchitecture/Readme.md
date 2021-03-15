@@ -4,4 +4,4 @@
 
 ##Read the article for better understanding
 
-### https://shreyvijayvargiya26.medium.com/best-scalable-api-architecture-in-frontend-dc6bdd13bbaf
+### https://shreyvijayvargiya26.medium.com/best-redux-architecture-explained-in-5-minutes-9b993f0169c0
