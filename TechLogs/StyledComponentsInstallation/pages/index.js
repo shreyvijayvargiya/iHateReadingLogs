@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const App = () => {
     return (
         <div>
-            <h1>Hello, Welcome to styled-components installlation</h1>
+            <h1>Hello, Welcome to styled-components installation</h1>
             <LoginContainer bgColor="#EEEEEE">
                 <TextField  
                     name="name"
