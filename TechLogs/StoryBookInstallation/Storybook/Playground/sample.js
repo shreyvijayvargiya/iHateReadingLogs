@@ -1,0 +1,2 @@
+export const PrimaryButton = ({ name, color  }) => ( <CustomButton name={name} color={color} />)
+storiesOf('Components', module).add('Primary Button', () => <Button name="Primary Button" color="secondary" />);
