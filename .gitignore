@@ -6,8 +6,4 @@ node_modules
 .DS_Store
 settings.json
 
-TechLogs/NextJSArchitecture/node_modules
-TechLogs/NextJSArchitecture/.next
-TechLogs/NextJSArchitecture/yarn.lock
-TechLogs/NextJSArchitecture/.DS_Store
-TechLogs/NextJSArchitecture/settings.json
+
