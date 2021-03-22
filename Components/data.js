@@ -69,5 +69,11 @@ export const articlesData = [
         description: 'You just need to follow 5 steps to start using MDX with Next JS and create you first MDX blog page',
         mediumLink: 'https://shreyvijayvargiya26.medium.com/creating-your-blog-with-mdx-in-next-js-691a9368569b?source=your_stories_page-------------------------------------'
     },
-
+    {
+        id: 11,
+        topic: 'Calling REST API inside GraphQL queries',
+        date: '22 March, 2012',
+        description: 'You don’t need to switch your backend from REST to GraphQL. Fetch REST query inside GraphQL.',
+        mediumLink: 'https://medium.com/p/e715c0f2da44?source=post_stats_page-------------------------------------'
+    }
 ]
