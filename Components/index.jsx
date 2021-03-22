@@ -203,7 +203,7 @@ const useStyles = makeStyles(theme => ({
     },
     tableContainer: {
         [theme.breakpoints.down('md')]: {
-            width: '100%'
+            width: '107%'
         }
     },
     header: {
