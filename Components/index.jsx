@@ -8,7 +8,8 @@ import { GiPencilRuler, GiMute } from 'react-icons/gi';
 import { MdCardTravel } from 'react-icons/md';
 import { GrInstagram } from 'react-icons/gr';
 import { AiOutlineGithub, AiFillMediumCircle, AiFillLinkedin, AiOutlineDribbble } from 'react-icons/ai';
-
+import { SiTeespring } from 'react-icons/si';
+import { DiCode } from 'react-icons/di';
 
 const Home = () => {
     const styles = useStyles();
@@ -22,26 +23,37 @@ const Home = () => {
                     name: 'LinkedIn',
                     url: 'https://linkedin.com/in/shrey-vijayvargiya-b62a3a105',
                     icon: <AiFillLinkedin />,
+                    color: '#4285F4'
                 },
                 {
                     name: 'Github',
                     url: 'https://github.com/shreyvijayvargiya',
                     icon: <AiOutlineGithub />,
+                    color: '#F6D365',
                 },
                 {
                     name: 'Medium',
                     url: 'https://medium.com/@shreyvijayvargiya26',
                     icon: <AiFillMediumCircle />,
+                    color: '#FAF4EE',
                 },
                 {
                     name: 'Dribbble',
                     icon: <AiOutlineDribbble />,
+                    color: '#F92ACC',
                     url: 'https://dribbble.com/witness_trey'
                 },
                 {
                     name: 'Instagram',
                     icon: <GrInstagram />,
+                    color: '#CF556C',
                     url: 'https://www.instagram.com/shreyvj26/'
+                },
+                {
+                    name: 'Teespring',
+                    icon: <SiTeespring />,
+                    color: '#34A853',
+                    url: 'https://my-store-11564192.creator-spring.com'
                 }
             ]
         },
@@ -49,89 +61,69 @@ const Home = () => {
 
     const Description = () => {
         return (
-            <Grid container>
-                <Grid item>
-                    <Grid container alignItems="center">
-                        <Grid item>
-                            <IconButton style={{ color: 'black' }}>
-                                <FaLaptopCode />
-                            </IconButton>
-                        </Grid>
-                        <Grid item >
-                            <Typography variant="caption">Developer by profession</Typography>
-                        </Grid>
+            <div className={styles.description}>
+                <Grid container alignItems="center" justify="center">
+                    <Grid item>
+                        <IconButton style={{ color: 'white' }}>
+                            <FaLaptopCode />
+                        </IconButton>
+                    </Grid>
+                    <Grid item >
+                        <Typography variant="caption">Developer by profession</Typography>
                     </Grid>
                 </Grid>
-                <Grid item>
-                    <Grid container alignItems="center">
-                        <Grid item>
-                            <IconButton style={{ color: 'black' }}>
-                                <GiPencilRuler />
-                            </IconButton>
-                        </Grid>
-                        <Grid item >
-                            <Typography variant="caption">Designer by interest</Typography>
-                        </Grid>
+                <Grid container alignItems="center" justify="center">
+                    <Grid item>
+                        <IconButton style={{ color: 'white' }}>
+                            <GiPencilRuler />
+                        </IconButton>
+                    </Grid>
+                    <Grid item >
+                        <Typography variant="caption">Designer by interest</Typography>
                     </Grid>
                 </Grid>
-                <Grid item>
-                    <Grid container alignItems="center">
-                        <Grid item>
-                            <IconButton style={{ color: 'black' }}>
-                                <FaMicrophoneAlt />
-                            </IconButton>
-                        </Grid>
-                        <Grid item >
-                            <Typography variant="caption">Journalist by blood</Typography>
-                        </Grid>
+                <Grid container alignItems="center" justify="center">
+                    <Grid item>
+                        <IconButton style={{ color: 'white' }}>
+                            <FaMicrophoneAlt />
+                        </IconButton>
+                    </Grid>
+                    <Grid item >
+                        <Typography variant="caption">Journalist by blood</Typography>
                     </Grid>
                 </Grid>
-                <Grid item>
-                    <Grid container alignItems="center">
-                        <Grid item>
-                            <IconButton style={{ color: 'black' }}>
-                                <MdCardTravel />
-                            </IconButton>
-                        </Grid>
-                        <Grid item >
-                            <Typography variant="caption">Traveller by nature</Typography>
-                        </Grid>
-                    </Grid>
-
-                </Grid>
-            </Grid>
-        )
-    }
+            </div>
+        );
+    };
 
      return (
         <div className={styles.root}>
-            <Grid container justify="space-between">
-                <Grid item lg={8} md={8} sm={12} xs={12}>
-                    <h5>Who I am</h5>
-                   <Description />
-                </Grid>
-                <Grid item lg={3} md={3} sm={12} xs={!2}>
-                    <h5>Reach me here:</h5>
-                    {data.map(item => {
-                        return (
-                            <div className={styles.iconContainer}>
-                                {item.socialLinks.map(url => {
-                                    return (
-                                        <a href={url.url} target="_blank">
-                                            <IconButton color="primary" style={{ color: 'black' }}>
-                                                {url.icon}
-                                            </IconButton>
-                                        </a>
-                                    )
-                                })}
-                            </div>
-                        )
-                    })}
-                </Grid>
-            </Grid>
+            <div container justify="space-between" className={styles.header}>
+                <Typography style={{ color: 'white' }} variant="h4">Hello, I am Shrey Vijayvargiya</Typography>
+                <Description />
+                <br />
+                <br />
+                <Divider style={{ width: '40%', margin: 'auto', backgroundColor: '#eeeeee' }} />
+                <br />
+                {data.map(item => {
+                    return (
+                        <div>
+                            {item.socialLinks.map(url => {
+                                return (
+                                    <a href={url.url} target="_blank">
+                                        <IconButton size="medium" color="primary" style={{ color: url.color, fontSize: 32  }}>
+                                            {url.icon}
+                                            <br />
+                                        </IconButton>
+                                    </a>
+                                )
+                            })}
+                        </div>
+                    )
+                })}
+            </div>
             <Divider />
             <br />
-            <p>Articles</p>
             <TableContainer className={styles.tableContainer}>
                 <Table stickyHeader className={styles.table}>
                     <TableHead>
@@ -140,7 +132,10 @@ const Home = () => {
                                 Topic
                             </TableCell>
                             <TableCell>
-                                Link
+                                Article 
+                            </TableCell>
+                            <TableCell>
+                                Code
                             </TableCell>
                             <TableCell>
                                 Released Date
@@ -152,11 +147,18 @@ const Home = () => {
                             return (
                                 <TableRow  key={item.id} className={styles.tableBodyRow}>
                                     <TableCell>
-                                        <h5>{item.topic}</h5>
+                                        <h2>{item.topic}</h2>
                                         <span style={{ opacity:0.8 }}>{item.description}</span>
                                     </TableCell>
                                     <TableCell>
                                         <a className={styles.topic} target="_blank" href={item.mediumLink}>Read Article</a>
+                                    </TableCell>
+                                    <TableCell>
+                                        <a className={styles.topic} href={item.repository} target="_blank">
+                                            <IconButton>
+                                                <DiCode style={{ color: '#2d2d2d'}} />
+                                            </IconButton>
+                                        </a>
                                     </TableCell>
                                     <TableCell>
                                         {item.date}
@@ -177,7 +179,6 @@ const useStyles = makeStyles(theme => ({
         color: '#2d2d2d',
         '&:hover': {
             backgroundColor: '#EEEEEE',
-            cursor: 'pointer'
         },
         '&>a': {
             color: '#2d2d2d'
@@ -187,20 +188,41 @@ const useStyles = makeStyles(theme => ({
         color: '#2d2d2d',
     },
     table: {
-        width: '100%',
+        width: '80%',
+        margin: 'auto',
+        [theme.breakpoints.down('md')]: {
+            width: '100%'
+        }
     },
     root: {
-        width: '80%',
         margin: 'auto',
         textAlign: 'left',
         [theme.breakpoints.down('md')]: {
-            width: '98%'
+            width: '100%'
         }
     },
     tableContainer: {
-        maxHeight: '70vh',
         [theme.breakpoints.down('md')]: {
-            height: '100vh'
+            width: '100%'
+        }
+    },
+    header: {
+        padding: theme.spacing(2),
+        textAlign: 'center',
+        width: '100%',
+        backgroundColor: '#272727',
+        "&>div>div>div>span": {
+            color: '#eeeeee'
+        }
+    },
+    description: {
+        width: '20%',
+        margin: 'auto',
+        [theme.breakpoints.up('md')]:{
+            width: '20%'
+        },
+        [theme.breakpoints.down('sm')]:{
+            width: '100%'
         }
     }
 }))
