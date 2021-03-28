@@ -86,5 +86,21 @@ export const articlesData = [
         repository: 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/TechLogs/GraphQLWithRESTAPI',
         description: 'You don’t need to switch your backend from REST to GraphQL. Fetch REST query inside GraphQL.',
         mediumLink: 'https://medium.com/p/e715c0f2da44?source=post_stats_page-------------------------------------'
+    },
+    {
+        id: 12,
+        topic: 'Github Authentication in Frontend',
+        date: '27 March, 2012',
+        repository: 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/TechLogs/GithubAuthenticationUsingFirebase',
+        description: 'Authenticating your users using Github.',
+        mediumLink: 'https://shreyvijayvargiya26.medium.com/github-authentication-using-firebase-f08bd9d7e659'
+    },
+    {
+        id: 13,
+        topic: 'Twitter Authentication in Frontend',
+        date: '28 March, 2012',
+        repository: 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/TechLogs/TwitterAuthenticationUsingFirebase',
+        description: 'Authenticating your users using Twitter',
+        mediumLink: 'https://shreyvijayvargiya26.medium.com/twitter-authentication-cb87c0d0fd'
     }
 ]
