@@ -102,5 +102,15 @@ export const articlesData = [
         repository: 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/TechLogs/TwitterAuthenticationUsingFirebase',
         description: 'Authenticating your users using Twitter',
         mediumLink: 'https://shreyvijayvargiya26.medium.com/twitter-authentication-cb87c0d0fd'
-    }
+    },
+    {
+        id: 14,
+        topic: 'Authentication using Phone Number',
+        description: 'Onboarding your users using the phone number',
+        date: '29 March, 2012',
+        repository: 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/TechLogs/PhoneNumberAuthentication',
+        mediumLink: 'https://shreyvijayvargiya26.medium.com/authentication-using-phone-number-fd5b10727fed'
+    },
+    
+
 ]
