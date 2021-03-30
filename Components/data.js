@@ -119,6 +119,14 @@ export const articlesData = [
         repository: 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/TechLogs/FacebookAuthentication',
         mediumLink: 'https://shreyvijayvargiya26.medium.com/facebook-authentication-using-firebase-ebb70d6df22a'
     },
+    {
+        id: 16,
+        topic: 'Adding Microsoft Authentication using Firebase',
+        description: 'Authenticating your users via Microsoft using Firebase',
+        date: '31 March, 2012',
+        repository: 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/TechLogs/MicrosoftAuthentication',
+        mediumLink: 'https://shreyvijayvargiya26.medium.com/adding-microsoft-authentication-using-firebase-485f0bd1e3eb'
+    },
     
 
 ]
