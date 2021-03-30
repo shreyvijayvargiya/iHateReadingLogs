@@ -1,5 +1,5 @@
-#Authentication using Phone Number
+#Facebook Authentication using Firebase
 
-### Onboarding your users using phone number
+### Authenticating your users using Facebook via Firebase
 ## Read the article for better understanding =>
-### https://shreyvijayvargiya26.medium.com/authentication-using-phone-number-fd5b10727fed
+### https://shreyvijayvargiya26.medium.com/facebook-authentication-using-firebase-ebb70d6df22a
