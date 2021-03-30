@@ -111,6 +111,14 @@ export const articlesData = [
         repository: 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/TechLogs/PhoneNumberAuthentication',
         mediumLink: 'https://shreyvijayvargiya26.medium.com/authentication-using-phone-number-fd5b10727fed'
     },
+    {
+        id: 15,
+        topic: 'Authentication using Facebook via Firebase',
+        description: 'Authenticating your users using Facebook via Firebase',
+        date: '30 March, 2012',
+        repository: 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/TechLogs/FacebookAuthentication',
+        mediumLink: 'https://shreyvijayvargiya26.medium.com/facebook-authentication-using-firebase-ebb70d6df22a'
+    },
     
 
 ]
