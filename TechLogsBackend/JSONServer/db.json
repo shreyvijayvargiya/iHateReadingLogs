@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    },
+    {
+      "id": 2,
+      "name": "Kenny"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "post": "Introduction to React"
+    },
+    {
+      "id": 2,
+      "post": "Introduction to React Native"
+    },
+    {
+      "id": 3,
+      "post": "Introduction to Firebase"
+    },
+    {
+      "id": 4,
+      "post": "Introduction to Node JS"
+    },
+    {
+      "id": 5,
+      "post": "Introduction to GRAPH QL"
+    },
+    {
+      "id": 6
+    },
+    {
+      "name": "Shrey Vijayvargiya",
+      "id": 7
+    },
+    {
+      "name": "Shrey Vijayvargiya",
+      "id": 8
+    },
+    {
+      "name": "Shrey Vijayvargiya",
+      "id": 9
+    },
+    {
+      "name": "Shrey Vijayvargiya",
+      "id": 10
+    },
+    {
+      "name": "Shrey Vijayvargiya",
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "name": "James Dino",
+      "id": 14
+    },
+    {
+      "name": "James Mourino",
+      "id": 15
+    },
+    {
+      "name": "Alex Furgusion",
+      "id": 16
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Demo of JSON Server",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "nodemon-server": "nodemon server.js",
+    "json-server": "npx json-server --watch db.json",
+    "node": "node server.js"
+  }
+}
