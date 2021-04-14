@@ -1,4 +1,4 @@
-#Adding Splash Screen in React Native App
+#Flatlist Demo, you are probably implementing it in a wrong way
 
-### Read the article => https://shreyvijayvargiya26.medium.com/adding-splashscreen-to-react-native-app-f688b664e6e9
+### Read the article => https://shreyvijayvargiya26.medium.com/flatlist-is-still-underrated-796130a8b8f2
 
