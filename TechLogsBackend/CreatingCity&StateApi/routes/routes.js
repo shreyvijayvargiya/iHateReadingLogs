@@ -18,7 +18,7 @@ router.get('/searchCity', async(req, res) =>{
     const params = req.query.city;
     const response = await fetchCities();
     const filteredCities = response.data.filter(item => {
-        if(item.name.toUpperCase() === params.toUpperCase()){
+        if(item.name.toUpperCase().includes(params.toUpperCase())){
             return item
         }
     });
