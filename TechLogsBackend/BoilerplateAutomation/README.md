@@ -15,7 +15,7 @@
 <h2>Demo</h2>
 <img src="./reactAutomationVideo.gif" width="100% height="50%"> 
 
-
+<a href="https://shreyvijayvargiya26.medium.com/creating-your-own-boilerplate-f28725568018">Read the article</a>
 <h2>What is  Automation ?</h2>
 <p>Anything which can be done using code instead manually is termed as automation</p>
 
