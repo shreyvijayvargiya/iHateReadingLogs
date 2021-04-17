@@ -1,0 +1,20 @@
+{
+  "name": "reactprojectautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shrey Vijayvargiya",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "cli-progress": "^3.7.0",
+    "prompt": "^1.0.0"
+  }
+}
