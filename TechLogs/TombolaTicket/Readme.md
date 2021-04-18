@@ -1,4 +1,5 @@
-#Next JS architecture repository
+#Writing tombola Ticket algorithm
 
 ##Read the article for better understanding
-### https://shreyvijayvargiya26.medium.com/building-solid-next-js-architecture-a8c6702dc67d?source=follow_footer---------0----------------------------
+
+<a href="https://shreyvijayvargiya26.medium.com/i-create-my-own-tombola-ticket-aea085887de4">Article link</a>
