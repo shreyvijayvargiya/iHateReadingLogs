@@ -1,5 +1,6 @@
-#Writing tombola Ticket algorithm
+# Perfect way to load images in Next JS
 
-##Read the article for better understanding
+## Read the article for better understanding
 
-<a href="https://shreyvijayvargiya26.medium.com/i-create-my-own-tombola-ticket-aea085887de4">Article link</a>
+
+<a href="https://shreyvijayvargiya.medium.com/a-perfect-way-to-load-images-in-react-f730d00119bf>Article link</a>
