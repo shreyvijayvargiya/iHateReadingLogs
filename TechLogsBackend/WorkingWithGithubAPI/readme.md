@@ -12,9 +12,8 @@
   $yarn 
   $yarn run server
   $open localhost:3000
-  
 ```
 
 <h3>Help</h3>
-<a href="">Read the article for better understanding</a>
+<a href="https://shreyvijayvargiya26.medium.com/5-minutes-read-to-add-github-authentication-via-express-servers-6dd764818124">Read the article for better understanding</a>
 
