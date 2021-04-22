@@ -17,7 +17,6 @@
 
 
 <h3>Tech Stack</h3>
-<p>Tech Stack used:</p>
 <ul>
    <li>Next JS</li>
    <li>React</li>
