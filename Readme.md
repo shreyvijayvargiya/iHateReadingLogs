@@ -18,13 +18,13 @@
 
 <h3>Tech Stack</h3>
 <p>Tech Stack used:</p>
--Next JS
-- React
--- Material UI
--- Tailwind UI
--- Node JS
--- Express
--- Styled-Components
--- Redux
+• Next JS
+• React
+• Material UI
+• Tailwind UI
+• Node JS
+• Express
+• Styled-Components
+• Redux
 
 
