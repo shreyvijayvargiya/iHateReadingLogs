@@ -6,6 +6,7 @@
 
 <h3>How to test locally</h3>
 <p>Follow the following steps to test it locally</p>
+
 ```
   $git clone {path_to_repository}
   $yarn 
