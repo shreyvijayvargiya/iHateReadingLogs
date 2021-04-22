@@ -18,9 +18,8 @@
 
 <h3>Tech Stack</h3>
 <p>Tech Stack used:</p>
--- Framework 
--- Next JS
--- React
+-Next JS
+- React
 -- Material UI
 -- Tailwind UI
 -- Node JS
