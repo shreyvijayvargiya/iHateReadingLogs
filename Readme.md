@@ -27,7 +27,7 @@
 <li>Styled-components</li>
 <li>Bulma CSS</li>
 <li>JSON Server</li>
-</li>Firebase</li>
+<li>Firebase</li>
 
 
 
