@@ -2,7 +2,7 @@
 <h1>Installing Bulma CSS in Next JS</h1>
 
 <h3>Demo Lookup</h3>
-<img src="/demo.png"/>
+<img src="./public/demo.png"/>
 
 <h3>Purpose</h3>
 <p>This repository gives the application of Bulma CSS with Next JS</p>
