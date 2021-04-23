@@ -6,7 +6,7 @@
 
 
 <h3>References</h3>
-<p>Read the article for better understanding
+<p>Read the article for better understanding</p>
 <a href=" https://shreyvijayvargiya26.medium.com/building-solid-next-js-architecture-a8c6702dc67d?source=follow_footer---------0----------------------------">Read Article</a>
   
  <h3>How to run</h3>
