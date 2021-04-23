@@ -17,7 +17,7 @@
 
 
 <h3>Tech Stack</h3>
-<p>Next JS</p>
+<li>Next JS</li>
 <li>React</li>
 <li>Material UI</li>
 <li>Tailwind CSS</li>
