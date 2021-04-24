@@ -1,4 +1,4 @@
-<h1>Perfect styling library in react</h1>
+<h1>Installting Styled-components with Next JS</h1>
 
 <h3>Purpose</h3>
 <p>This repo gives basic understanding of perfect styling library in react</p>
