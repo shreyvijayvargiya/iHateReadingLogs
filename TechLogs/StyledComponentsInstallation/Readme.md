@@ -1,7 +1,7 @@
-<h1>Installting Styled-components with Next JS</h1>
+<h1>Installting Styled-Components with Next JS</h1>
 
 <h3>Purpose</h3>
-<p>This repo gives basic understanding of perfect styling library in react</p>
+<p>This repo gives understanding of installation processes of styled-components in Next JS</p>
 
 
 <h3>References</h3>
