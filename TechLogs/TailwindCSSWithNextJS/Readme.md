@@ -5,7 +5,7 @@
 </p>
 
 <h3>Demo</h3>
-<img src="nextwithtailwind.png" />
+<img src="./public/nextwithtailwind.png" alt="Next JS with Tailwind CSS" />
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
