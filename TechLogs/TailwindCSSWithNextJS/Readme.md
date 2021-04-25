@@ -1,7 +1,7 @@
 <h1>Tailwind CSS installation in Next JS</h1>
 
 <h3>Purpose</h3>
-<p>This repo gives basic understanding of Tailwind CSS installation in Next jS
+<p>This repo simple install Tailwind CSS installation in Next jS
 </p>
 
 <h3>Demo</h3>
