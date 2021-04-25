@@ -10,7 +10,7 @@
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
-<a href="https://shreyvijayvargiya26.medium.com/perfect-ui-library-with-react-813f41704584">Read Article</a>
+<a href="https://shreyvijayvargiya26.medium.com/2-minute-2-steps-for-installing-tailwind-css-in-react-8dd420d81647">Read Article</a>
 
 <h3>How to run</h3>
  
