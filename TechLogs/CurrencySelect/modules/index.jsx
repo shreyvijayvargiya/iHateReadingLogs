@@ -1,0 +1,1 @@
+export { default as CurrencySelect } from '../modules/CurrencySelect';
