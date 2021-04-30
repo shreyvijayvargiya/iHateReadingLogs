@@ -8,15 +8,15 @@
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
-<a href="https://shreyvijayvargiya26.medium.com/perfect-ui-library-with-react-813f41704584">Read Article</a>
+<a href="The perfect endpoints for filtering currencies">Read Article</a>
 
 <h3>How to run</h3>
  
  ```
   $ git clone
   $ yarn
-  $ yarn run dev
-  $ open localhost:300
+  $ yarn run start
+  $ open localhost:3001
  ```
 
 <h3>About Author</h3>
