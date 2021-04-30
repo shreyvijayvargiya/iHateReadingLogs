@@ -16,7 +16,7 @@
   $ git clone
   $ yarn
   $ yarn run start
-  $ open localhost:3001
+  $ open localhost:3000
  ```
 
 <h3>About Author</h3>
