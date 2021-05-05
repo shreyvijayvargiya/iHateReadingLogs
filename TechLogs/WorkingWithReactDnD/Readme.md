@@ -16,7 +16,7 @@
  ```
 
 <h3>Read the article to understand how to do it</h3>
-<a href="">Article</a>
+<a href="https://shreyvijayvargiya26.medium.com/forget-the-browser-drag-drop-api-this-library-is-perfect-to-add-drag-and-drop-feature-f2a1a9e7d8e3">Article</a>
 
 <h3>Developer</h3>
 <ol>
