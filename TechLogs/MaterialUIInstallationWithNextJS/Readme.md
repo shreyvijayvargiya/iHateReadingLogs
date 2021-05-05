@@ -1,4 +1,4 @@
-<h1>Material UI installation with Next JS</h1>
+<h1>Material UI installation in Next JS</h1>
 
 <h3>Purpose</h3>
 <p>This repo gives basic understanding of material ui installation with Next jS
@@ -15,8 +15,8 @@
  ```
   $ git clone
   $ yarn
-  $ yarn run dev
-  $ open localhost:300
+  $ yarn run start
+  $ open localhost:3000
  ```
 
 <h3>About Author</h3>

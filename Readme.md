@@ -2,7 +2,7 @@
 
 
 <h3>Purpose</h3>
-<p>This repository consits of all the tech concerned articles written during the 100 days of code</p>
+<p>This repository consits of all the tech logs articulated during the 100 days of code</p>
 
 
 <h3>Documentation</h3>
@@ -32,8 +32,8 @@
 
 
 <h3>About Author</h3>
-<p>Hello I am <a href="https://shreyvijayvargiya26.medium.com/">Shrey Vijayvargiya</a>, I am Developer by profession because creating interfaces is my passion. 
-  <br /> a Designer by interest because I love ommiting my thoughts using Figma & <br />a Journalist by blood because I constantly share my knowledge and indulge in writing journals for my audiences</p>
+<p>Hello I am <a href="https://shreyvijayvargiya26.medium.com/">Shrey Vijayvargiya</a>, I am Developer by profession because creating interfaces is my passion, 
+  <br /> a Designer by interest as I love ommiting my thoughts using Figma & <br />a Journalist by blood because I constantly share my knowledge and indulge in writing journals for my audiences</p>
 
 
 
