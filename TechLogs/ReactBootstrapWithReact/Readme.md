@@ -4,7 +4,7 @@
 <p>This repository explains the perfect architecture you should follow for Next JS </p>
 
 <h3>Demo</h3>
-<img src="./public/demo.png" />
+<img src="./public/Demo.png" />
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
