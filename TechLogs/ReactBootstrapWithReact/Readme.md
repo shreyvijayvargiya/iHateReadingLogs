@@ -1,7 +1,7 @@
-<h1>Next JS architecture repository</h1>
+<h1>Using React Bootsrap in React</h1>
 
 <h3>Purpose</h3>
-<p>This repository explains the perfect architecture you should follow for Next JS </p>
+<p>This repository explains the use-case of React Bootstrap in React application </p>
 
 <h3>Demo</h3>
 <img src="./public/Demo.png" />
