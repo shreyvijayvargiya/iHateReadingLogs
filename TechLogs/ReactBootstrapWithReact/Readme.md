@@ -1,4 +1,4 @@
-<h1>Using React Bootsrap in React</h1>
+<h1>Using React Bootstrap in React</h1>
 
 <h3>Purpose</h3>
 <p>This repository explains the use-case of React Bootstrap in React application </p>
