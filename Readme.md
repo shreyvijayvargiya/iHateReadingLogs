@@ -13,8 +13,11 @@
 </ul>
 
 <h3>References</h3>
-<a href="https://www.ihatereading.in/logs">Website</a>
-
+<ul>
+  <li>To Read visit: <a href="https://www.ihatereading.in/logs">Logs</a></li>
+  <li>To Download repositories: <a href="https://www.ihatereading.in/repos">Repos</a></li>
+  <li>To View Projects visit: <a href="https://www.ihatereading.in/projects">Projects</a></li>
+</ul>
 
 <h3>Tech Stack</h3>
 <li>Next JS</li>
