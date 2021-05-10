@@ -1,4 +1,4 @@
-<h1>Switching themes in react application</h1>
+<h1>Theming and theme switching in react applications/h1>
 
 <h3>Purpose</h3>
 <p>This repo explains the process of switching themes in react application
@@ -13,7 +13,7 @@
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
-<a href="https://shreyvijayvargiya26.medium.com/2-minute-2-steps-for-installing-tailwind-css-in-react-8dd420d81647">Read Article</a>
+<a href="https://shreyvijayvargiya26.medium.com/theming-and-theme-switching-in-react-8dc99797ed49">Read Article</a>
 
 <h3>How to run</h3>
  
