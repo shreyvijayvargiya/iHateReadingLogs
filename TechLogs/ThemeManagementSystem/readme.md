@@ -4,7 +4,7 @@
 <p>This repository contains the demo of theme management system we have develoepd.</p>
 
 <h3>Demo</h3>
-<img src="./public/product.gif />
+<img src="./public/product.gif" />
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
