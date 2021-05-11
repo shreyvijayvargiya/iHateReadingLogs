@@ -1,4 +1,4 @@
-<h1>Theming and theme switching in react applications/h1>
+<h1>Theming and theme switching in react applications</h1>
 
 <h3>Purpose</h3>
 <p>This repo explains the process of switching themes in react application
