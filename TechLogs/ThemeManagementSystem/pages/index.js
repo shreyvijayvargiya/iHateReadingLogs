@@ -36,11 +36,12 @@ const App = () => {
     return (
         <div className="h-screen m-auto flex flex-col justify-start w-full items-center">
             <p className="text-4xl p-4">Theme Management System</p>
-            <button 
+            <a 
                 className="rounded-md bg-green-500 hover:bg-green-600 focus:underline focus:outline-none focus:border-none outline-none p-2"
+                href="https://shreyvijayvargiya26.medium.com/developing-theme-management-system-c55e5bb996a0"
             >
                 Read the instructions process
-            </button>
+            </a>
             <br />
             <hr className="w-full " />
             <div className="w-full h-5/6 flex justify-between items-start">
