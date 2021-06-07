@@ -1,0 +1,20 @@
+{
+  "name": "newproj",
+  "description": "Next JS architecture repo",
+  "main": "pages/index.js",
+  "author": "shreyvijayvargiya",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "evergreen-ui": "^6.0.1",
+    "next": "^10.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build"
+  }
+}
