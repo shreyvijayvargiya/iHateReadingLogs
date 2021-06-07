@@ -4,6 +4,9 @@
 <p>This repo explains the proces of adding loading skeleton in React Native application
 </p>
 
+<h3>Demo</h3>
+<img src="./assets/demo.gif" />
+
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
