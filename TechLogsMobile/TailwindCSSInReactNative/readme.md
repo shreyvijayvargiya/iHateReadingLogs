@@ -5,7 +5,7 @@
 </p>
 
 <h3>Demo</h3>
-<img src="./assets/demo.gif">
+<img src="./assets/demo.png">
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
