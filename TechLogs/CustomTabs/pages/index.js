@@ -95,7 +95,7 @@ const App = () => {
         <div className="py-10 px-20 text-center">
             <p className="text-center text-4xl">Custom Tabs in React</p>
             <button className="p-2 rounded-md mx-auto hover:bg-green-600 bg-green-500 my-2">
-                <a>React the story</a>
+                <a href="https://shreyvijayvargiya26.medium.com/5-steps-to-develop-custom-tabs-in-react-d0ec1c05d3af" target="_blank">React the story</a>
             </button>
             <div className="mx-auto w-8/12 p-4">
                 <div className="flex flex-wrap justify-around items-center">

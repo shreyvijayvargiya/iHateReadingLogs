@@ -1,16 +1,16 @@
-<h1>Tailwind CSS installation in Next JS</h1>
+<h1>5 Steps to develop custom tabs in React</h1>
 
 <h3>Purpose</h3>
-<p>This repo simple install Tailwind CSS installation in Next jS
+<p>Developing custom tabs in React
 </p>
 
 <h3>Demo</h3>
-<img src="./public/nextwithtailwind.png" alt="Next JS with Tailwind CSS" />
+<img src="./public/demo.gif" alt="Next JS with Tailwind CSS" />
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
-<a href="https://shreyvijayvargiya26.medium.com/2-minute-2-steps-for-installing-tailwind-css-in-react-8dd420d81647">Read Article</a>
+<a href="https://shreyvijayvargiya26.medium.com/5-steps-to-develop-custom-tabs-in-react-d0ec1c05d3af" target="_blank">Read Article</a>
 
 <h3>How to run</h3>
  
