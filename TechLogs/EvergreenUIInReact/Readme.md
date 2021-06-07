@@ -4,6 +4,9 @@
 <p>This repository explains the installation process of Evergreen UI in React </p>
 
 
+<h3>Demo</h3>
+<img src="./public/demo.png" />
+
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
