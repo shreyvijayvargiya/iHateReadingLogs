@@ -5,6 +5,9 @@
 <p>This repo explains the proces of working with Flatlist in React Native
 </p>
 
+<h3>Demo</h3>
+<img src="./assets/demo.gif">
+
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
