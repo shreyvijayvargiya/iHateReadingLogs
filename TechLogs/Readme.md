@@ -38,13 +38,13 @@
   <li> Tombola Ticket </li>
   <li> Twitter Authentication usingFirebase </li>
   <li> WorkingWithReactDnD </li>
-<ul>
+</ul>
 
-<p>Proejct for gatsby Framework</p>
-  <ul>
-    <li>Gastby Introduction Or Gatsby boilerplate</p>
-  </ul>
-  
+<h3>Gatsby Framework</h3>
+<ul>
+  <li>Gastby Introduction Or Gatsby boilerplate</p>
+</ul>
+
 <h3>Tech Stack</h3>
 <li>Next JS</li>
 <li>React</li>
