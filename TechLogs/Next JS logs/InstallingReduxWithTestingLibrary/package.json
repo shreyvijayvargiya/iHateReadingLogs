@@ -1,0 +1,40 @@
+{
+  "name": "newproj",
+  "description": "Next JS architecture repo",
+  "main": "pages/index.js",
+  "author": "shreyvijayvargiya",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "autoprefixer": "^10.2.5",
+    "next": "^10.0.8",
+    "postcss": "^8.2.10",
+    "react": "^17.0.1",
+    "react-dnd": "^14.0.2",
+    "react-dnd-html5-backend": "^14.0.0",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "tailwindcss": "^2.1.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.30.4",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "babel-jest": "^26.6.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
+    "jest-dom": "^4.0.0"
+  }
+}

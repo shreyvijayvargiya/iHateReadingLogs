@@ -1,0 +1,22 @@
+{
+  "name": "newproj",
+  "description": "Next JS architecture repo",
+  "main": "pages/index.js",
+  "author": "shreyvijayvargiya",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^10.0.9",
+    "next": "^10.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build"
+  }
+}
