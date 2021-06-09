@@ -1,5 +1,5 @@
 <h1>100 Days of code Challenge repository</h1>
-
+<img src="./public/header.png" />
 
 <h3>Purpose</h3>
 <p>This repository consits of all the tech logs articulated during the 100 days of code</p>
