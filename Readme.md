@@ -33,7 +33,16 @@
 <li>Firebase</li>
 
 
-
+<h3>Support</h3>
+    <p>We are bootstrapped startup and so far we have recived decent traffic on our website. We are constantly growing and updating so your support 
+      will definately matters a lot</p> 
+    <p>Feel free to support us </p>
+    <p>
+      <a href="https://issuehunt.io/r/shreyvijayvargiya/iHateReadingLogs" target="_blank">
+        <img src="https://camo.githubusercontent.com/fcf6ed4dcbd95ccadfe62647fc93194b7262c862de38406e5dae68aa682c85c3/68747470733a2f2f697373756568756e742e696f2f7374617469632f656d6265642f697373756568756e742d627574746f6e2d76312e737667" />
+      </a>
+    </p>
+    
 <h3>About Author</h3>
 <p>Hello I am <a href="https://shreyvijayvargiya26.medium.com/">Shrey Vijayvargiya</a>, I am Developer by profession because creating interfaces is my passion, 
   <br /> a Designer by interest as I love ommiting my thoughts using Figma & <br />a Journalist by blood because I constantly share my knowledge and indulge in writing journals for my audiences</p>
