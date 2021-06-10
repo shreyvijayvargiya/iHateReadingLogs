@@ -1,10 +1,10 @@
 <h1>Introduction to Gatsby</h1>
 
 <h3>Demo</h3>
-<img src="./src/images/demo.png" />
+<img src="./static/demo.png" />
 
 <h3>References</h3>
-<a href="https://shreyvijayvargiya26.medium.com/introduction-to-gatsby-4641948b450b">Read the article for better understanding</a>
+<a href="https://shreyvijayvargiya26.medium.com/working-with-tailwind-css-in-gatsby-8cbc079a9d55">Read the article for better understanding</a>
   
 <h3>How to run</h3>
  
