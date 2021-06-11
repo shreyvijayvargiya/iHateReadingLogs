@@ -1,0 +1,25 @@
+{
+  "name": "newproj",
+  "description": "Next JS architecture repo",
+  "main": "pages/index.js",
+  "author": "shreyvijayvargiya",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "autoprefixer": "^10.2.5",
+    "firebase": "^8.3.0",
+    "next": "^10.0.8",
+    "postcss": "^8.2.15",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "tailwindcss": "^2.1.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build"
+  }
+}
