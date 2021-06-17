@@ -4,7 +4,7 @@
 <img src="./assets/demo.png" />
 
 <h3>References</h3>
-<a href="https://shreyvijayvargiya26.medium.com/introduction-to-gatsby-4641948b450b">Read the article for better understanding</a>
+<a href="https://shreyvijayvargiya26.medium.com/react-native-with-redux-a22976969a55">Read the article for better understanding</a>
   
 <h3>How to run</h3>
  
