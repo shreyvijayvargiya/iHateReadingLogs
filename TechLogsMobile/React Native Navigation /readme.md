@@ -1,11 +1,10 @@
-<h1>Adding perfect loading component, loading skeleton like YouTube</h1>
+<h1>Navgiations in React Repository</h1>
 
 <h3>Purpose</h3>
-<p>This repo explains the proces of adding loading skeleton in React Native application
-</p>
+<p>This repo explains the proces of adding screens in React Native application</p>
 
 <h3>Demo</h3>
-<img src="./assets/demo.gif" />
+<img src="./demo.gif" />
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
