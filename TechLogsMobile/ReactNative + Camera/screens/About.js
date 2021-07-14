@@ -2,19 +2,13 @@ import React from 'react';
 import { View } from 'react-native';
 import { Headline, Paragraph, Button  } from 'react-native-paper';
 
-const Home = ({ navigation }) => {
+const About = ({ navigation }) => {
     return (
         <View style={{ width: "90%", alignSelf: "center", padding: 20 }}>
             <Paragraph>
-                React Native Camera Module 
+                About
             </Paragraph>
-            <Button
-                mode="contained"
-                onPress={() => navigation.openDrawer()}
-            >
-                Open Drawer
-            </Button>
         </View>
     );
 };
-export default Home;
+export default About;
