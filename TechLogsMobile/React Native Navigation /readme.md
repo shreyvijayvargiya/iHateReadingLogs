@@ -1,4 +1,4 @@
-<h1>Navgiations in React Repository</h1>
+<h1>Navigations in React Repository</h1>
 
 <h3>Purpose</h3>
 <p>This repo explains the proces of adding screens in React Native application</p>
