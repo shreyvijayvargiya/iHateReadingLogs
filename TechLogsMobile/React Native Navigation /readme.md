@@ -9,7 +9,7 @@
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
-<a href="https://medium.com/nerd-for-tech/a-perfect-loading-component-to-fetch-data-6119f6e50904?source=your_stories_page-------------------------------------">Read Article</a>
+<a href="https://shreyvijayvargiya26.medium.com/4-steps-for-navigations-in-react-native-c0e6304a2d09">Read Article</a>
 
 <h3>How to run</h3>
  
