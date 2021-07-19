@@ -1,7 +1,24 @@
-#Smartest decoupling of Redux Architecture, Easy to replace anytime in future with other state management library.
+<h1>Redux Best Practices</h1>
 
-###The Redux architecture you should follow every time. Scaleable, highly extensible and easy to replace anytime in future.
+<h3>Purpose</h3>
+<p>This repository explains the best practices for redux in your next project </p>
 
-##Read the article for better understanding
 
-### https://shreyvijayvargiya26.medium.com/best-redux-architecture-explained-in-5-minutes-9b993f0169c0
+<h3>References</h3>
+<p>Read the article for better understanding</p>
+
+<a href="https://shreyvijayvargiya26.medium.com/building-solid-next-js-architecture-a8c6702dc67d?source=follow_footer---------0----------------------------">Read Article</a>
+  
+ <h3>How to run</h3>
+ 
+ ```
+  $ git clone
+  $ yarn
+  $ yarn run dev
+  $ open localhost:300
+  
+ ```
+
+<h3>About Author</h3>
+<p>Hello I am <a href="https://shreyvijayvargiya26.medium.com/">Shrey Vijayvargiya</a>, I am Developer by profession because creating interfaces is my passion. 
+  <br /> a Designer by interest because I love ommiting my thoughts using Figma & <br />a Journalist by blood because I constantly share my knowledge and indulge in writing journals for my audiences</p>
