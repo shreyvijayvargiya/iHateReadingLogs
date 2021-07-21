@@ -19,8 +19,8 @@
  ```
   $ git clone
   $ yarn
-  $ yarn run dev
-  $ open localhost:300
+  $ yarn run server
+  $ open localhost:3000
   
  ```
 
