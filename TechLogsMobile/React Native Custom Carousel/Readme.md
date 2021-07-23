@@ -10,7 +10,7 @@
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
-<a href="https://shreyvijayvargiya26.medium.com/getting-started-with-react-native-ui-library-react-native-paper-e6ba75508120">Read Article</a>
+<a href="https://shreyvijayvargiya26.medium.com/adding-custom-carousel-in-react-native-1acc217457d4">Read Article</a>
 
 <h3>How to run</h3>
  
