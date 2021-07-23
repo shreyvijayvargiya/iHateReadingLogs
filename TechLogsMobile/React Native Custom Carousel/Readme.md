@@ -1,11 +1,11 @@
-<h1>React Native Paper with React Native</h1>
+<h1>React Native Custom Carousel</h1>
 
 <h3>Purpose</h3>
-<p>This repo provides the boilerplate for react native project with react native paper as UI library installed
+<p>This repo provides the boilerplate for react native project to created custom carousel
 </p>
 
 <h3>Demo</h3>
-<img src="./assets/demo.png" />
+<img src="./assets/demo.gif" />
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
