@@ -1,7 +1,7 @@
 const axios = require("axios");
 const express = require("express");
 const githubRouter = express.Router();
-const fs = require("fs");
+
 
 let response = {
     token: String,
@@ -9,6 +9,7 @@ let response = {
     message: String,
     data: {},
 };
+
 githubRouter.get('/', (req, res) => { 
     console.log(process.env.clientId)
     res.send('Hello');
