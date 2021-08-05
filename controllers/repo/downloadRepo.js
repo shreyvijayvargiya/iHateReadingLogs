@@ -28,6 +28,7 @@ function installDependencies(dependencies){
 
 const downloadRepo = async (req, res) => {
     const { tree, userId } = req.body;
+    console.log(tree, "tree");
     const { isUserValid } = await checkUserValidity(userId);
     if(!isUserValid){
         res.send("User not found, please login to continue");
@@ -39,6 +40,9 @@ const downloadRepo = async (req, res) => {
         }
         let directories = [];
         let files = [];
+        if(fs.existsSync(process.cwd() + "/repos/root")){
+            fs.rmdirSync(process.cwd() + "/repos/root", { recursive: true });
+        };
         function walkTree(tree){
             tree.map(item => {
                 if(Array.isArray(item.children)){
@@ -65,7 +69,7 @@ const downloadRepo = async (req, res) => {
             "Content-Disposition": "attachment; filename=repo.zip",
             "Content-Length": dirBuffer.length
         });
-        res.send(dirBuffer)
+        res.send(dirBuffer);
     }
 };
 module.exports = downloadRepo;

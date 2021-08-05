@@ -11,7 +11,7 @@ dotenv.config();
 const server = express();
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: true }));
-server.use(cors());
+server.use(cors("*"));
 
 admin.initializeApp({
     credential: admin.credential.cert("./service-account-file.json"),
@@ -19,6 +19,6 @@ admin.initializeApp({
     projectId: process.env.FIREBASE_PROJECT_ID,
 })
 server.use(router);
+server.use(githubRouter);
 
-
-server.listen(process.env.PORT || 3001, () => console.log('Server is running on port 3000'));
+server.listen(process.env.PORT || 3001, () => console.log('Server is running on port 3001'));

@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 });
 router.get("/v1/custom-repo/login", firebaseLogin);
 
-router.get("/v1/custom-repo/download-repo", downloadRepo);
+router.post("/v1/custom-repo/download-repo", downloadRepo);
 
 module.exports = router;
 
