@@ -3,7 +3,8 @@
 <h3>Purpose</h3>
 <p>This repository explains installation of Next JS with Ant Design </p>
 
-
+<h3>Demo</h3>
+<img src="./public/demo.png" />
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
@@ -19,6 +20,7 @@
   $ open localhost:300
   
  ```
+
 
 <h3>About Author</h3>
 <p>Hello I am <a href="https://shreyvijayvargiya26.medium.com/">Shrey Vijayvargiya</a>, I am Developer by profession because creating interfaces is my passion. 
