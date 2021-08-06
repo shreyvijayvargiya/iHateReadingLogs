@@ -1,14 +1,14 @@
-<h1>Next JS architecture repository</h1>
+<h1>Next JS + Ant Design boilerplate</h1>
 
 <h3>Purpose</h3>
-<p>This repository explains the perfect architecture you should follow for Next JS </p>
+<p>This repository explains installation of Next JS with Ant Design </p>
 
 
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
-<a href="https://shreyvijayvargiya26.medium.com/building-solid-next-js-architecture-a8c6702dc67d?source=follow_footer---------0----------------------------">Read Article</a>
+<a href="https://shreyvijayvargiya26.medium.com/next-js-with-ant-design-f542ebe4e00c?source=your_stories_page-------------------------------------">Read Article</a>
   
  <h3>How to run</h3>
  
