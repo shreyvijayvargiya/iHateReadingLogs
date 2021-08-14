@@ -1,16 +1,15 @@
-<h1>Tailwind CSS installation in Next JS</h1>
+<h1>React Query Introduction</h1>
 
 <h3>Purpose</h3>
-<p>This repo simple install Tailwind CSS installation in Next jS
-</p>
+<p>This repo explains the React Query hooks</p>
 
 <h3>Demo</h3>
-<img src="./public/nextwithtailwind.png" alt="Next JS with Tailwind CSS" />
+<img src="./public/demo.png" alt="React Query Introduction" />
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
-<a href="https://shreyvijayvargiya26.medium.com/2-minute-2-steps-for-installing-tailwind-css-in-react-8dd420d81647">Read Article</a>
+<a href="https://shreyvijayvargiya26.medium.com/3-steps-to-quickly-start-with-react-query-a3012c62b18b?source=your_stories_page-------------------------------------">Read Article</a>
 
 <h3>How to run</h3>
  
