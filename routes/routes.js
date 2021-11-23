@@ -48,7 +48,13 @@ router.get('/auth/google/callback', passport.authenticate('google', { failureRed
 });
 
 router.get("/push-to-github", (req, res) => {
-    const cmd = `cd repos/root & git remote set-url --add origin ${process.env.GITHUB_MONO_REPO_URL} && git add . && git commit && git push`
+    const cmd = `
+        cd repos/root & 
+        git add . && 
+        git commit -m "First Commit" &&
+        git remote add origin ${process.env.GITHUB_MONO_REPO_URL} &&
+        git push -u origin
+    `
     exec(cmd, (err, stdout, stderr) => {
         if(err) console.log(err, 'error')
         if(stdout) console.log(stdout, 'stdout')
