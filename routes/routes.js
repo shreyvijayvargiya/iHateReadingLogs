@@ -52,14 +52,13 @@ router.get("/push-to-github", (req, res) => {
         cd repos/root & 
         git add . && 
         git commit -m "First Commit" &&
-        git remote add origin ${process.env.GITHUB_MONO_REPO_URL} &&
         git push -u origin
     `
     exec(cmd, (err, stdout, stderr) => {
         if(err) console.log(err, 'error')
         if(stdout) console.log(stdout, 'stdout')
     });
-    res.send('Done')
+    res.send('Done');
 })
 module.exports = router;
 
