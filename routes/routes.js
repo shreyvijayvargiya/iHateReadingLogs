@@ -52,7 +52,7 @@ router.get("/push-to-github", (req, res) => {
         cd repos/root & 
         git add . && 
         git commit -m "First Commit" &&
-        git push -u origin
+        git push --set-upstream origin create-repo
     `
     exec(cmd, (err, stdout, stderr) => {
         if(err) console.log(err, 'error')
