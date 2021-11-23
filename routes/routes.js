@@ -4,12 +4,11 @@ const passport = require('passport');
 const router = express.Router();
 const firebaseLogin = require('../controllers/login/firebaseLogin');
 const downloadRepo = require("../controllers/repo/downloadRepo");
-
-
+const exec = require('child_process').execSync;
 
 
 router.get('/', (req, res) => {
-    res.send('Welcome to basic ihatereading backend repository ');
+    res.send('Welcome to basic ihatereading-backend repository ');
 });
 router.get("/v1/custom-repo/login", firebaseLogin);
 
@@ -48,5 +47,13 @@ router.get('/auth/google/callback', passport.authenticate('google', { failureRed
     res.redirect('/');
 });
 
+router.get("/push-to-github", (req, res) => {
+    const cmd = `cd repos/root & git remote set-url --add origin ${process.env.GITHUB_MONO_REPO_URL} && git add . && git commit && git push`
+    exec(cmd, (err, stdout, stderr) => {
+        if(err) console.log(err, 'error')
+        if(stdout) console.log(stdout, 'stdout')
+    });
+    res.send('Done')
+})
 module.exports = router;
 

@@ -9,7 +9,7 @@
   },
   "scripts": {
     "server": "node server.js",
-    "dev": "nodemon server.js -p 4000",
+    "dev": "nodemon server.js",
     "start": "nodemon --config nodemon.json"
   },
   "dependencies": {

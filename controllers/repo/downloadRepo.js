@@ -28,7 +28,6 @@ function installDependencies(dependencies){
 
 const downloadRepo = async (req, res) => {
     const { tree, userId } = req.body;
-    console.log(tree, "tree");
     const { isUserValid } = await checkUserValidity(userId);
     if(!isUserValid){
         res.send("User not found, please login to continue");

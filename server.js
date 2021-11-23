@@ -31,4 +31,4 @@ server.use(router);
 server.use(githubRouter);
 
 
-server.listen(process.env.PORT || 3001, () => console.log('Server is running on port 4000 '));
+server.listen(process.env.PORT || 4000, () => console.log('Server is running on port 4000'));
