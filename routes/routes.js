@@ -53,11 +53,12 @@ router.get('/auth/google/callback', passport.authenticate('google', { failureRed
 
 
 router.get('/push-repo', (req, res) => {
-    shellJs.cd(process.cwd() + '/repos/root');
+    // shellJs.cd(process.cwd() + '/repos/root');
+    
     const repo = 'Dummy';
     const username = 'shreyvijayvargiya';
     const password = 'Treyvijay26';
-    const githubUrl = 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/CustomRepos';
+    const githubUrl = 'https://github.com/shreyvijayvargiya/iHateReadingLogs.git';
 
     // gitSimple.addConfig('user.email','shreyvijayvargiya26@gmail.com');
     // gitSimple.addConfig('user.name', username);
@@ -81,7 +82,7 @@ router.get('/push-repo', (req, res) => {
             console.log('failed commmit');
      });
     // Finally push to online repository
-    gitSimple.push('origin','main')
+    gitSimple.push('origin','master')
         .then((success) => {
            console.log('repo successfully pushed');
         },(failed)=> {
