@@ -6,6 +6,10 @@ const firebaseLogin = require('../controllers/login/firebaseLogin');
 const downloadRepo = require("../controllers/repo/downloadRepo");
 const exec = require('child_process').exec;
 
+const shellJs = require('shelljs');
+const simpleGit = require('simple-git');
+
+const gitSimple = simpleGit();
 
 router.get('/', (req, res) => {
     res.send('Welcome to basic ihatereading-backend repository ');
@@ -47,5 +51,9 @@ router.get('/auth/google/callback', passport.authenticate('google', { failureRed
     res.redirect('/');
 });
 
+
+router.get('/push-repo', (req, res) => {
+   
+})
 module.exports = router;
 
