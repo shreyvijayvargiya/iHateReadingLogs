@@ -59,8 +59,8 @@ router.get('/push-repo', (req, res) => {
     const password = 'Treyvijay26';
     const githubUrl = 'https://github.com/shreykoo/ihatereading-repos.git';
 
-    gitSimple.addConfig('user.email','shreyvijayvargiya26@gmail.com');
-    gitSimple.addConfig('user.name', username);
+    // gitSimple.addConfig('user.email','shreyvijayvargiya26@gmail.com');
+    // gitSimple.addConfig('user.name', username);
     
     // Add remore repo url as origin to repo
     gitSimple.init().addRemote('origin', 'https://github.com/shreykoo/ihatereading-repos.git');
