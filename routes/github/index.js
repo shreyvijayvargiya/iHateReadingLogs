@@ -52,8 +52,8 @@ githubRouter.get('/create-repo', async(req, res) => {
     const repo = 'Dummy';
     const username = 'shreyvijayvargiya';
     const password = 'Treyvijay26';
-    const githubUrl = 'https://github.com/shreyvijayvargiya/iHateReadingLogs.git';
-    
+    const githubUrl = 'https://github.com/shreyvijayvargiya/iHateReading-Backend.git';
+
     gitSimple.addConfig('user.email','shreyvijayvargiya26@gmail.com');
     gitSimple.addConfig('user.name', username);
     
