@@ -81,7 +81,7 @@ router.get('/push-repo', (req, res) => {
             console.log('failed commmit');
      });
     // Finally push to online repository
-    gitSimple.push('origin','all-custom-repos')
+    gitSimple.push('origin','master')
         .then((success) => {
            console.log('repo successfully pushed');
         },(failed)=> {
