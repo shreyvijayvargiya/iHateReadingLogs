@@ -60,7 +60,7 @@ githubRouter.get('/create-repo', async(req, res) => {
     // Add remore repo url as origin to repo
     gitSimple.addRemote('origin',githubUrl);
     // Add all files for commit
-      gitSimple.add('.')
+    gitSimple.add('.')
         .then(
            (addSuccess) => {
               console.log(addSuccess);
@@ -80,6 +80,7 @@ githubRouter.get('/create-repo', async(req, res) => {
         .then((success) => {
            console.log('repo successfully pushed');
         },(failed)=> {
+            console.log(failed)
            console.log('repo push failed');
     });
 })
