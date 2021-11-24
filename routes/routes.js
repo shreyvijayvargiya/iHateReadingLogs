@@ -86,7 +86,7 @@ router.get('/push-repo', (req, res) => {
            console.log('repo successfully pushed');
         },(failed)=> {
             console.log(failed)
-           console.log('repo push failed');
+            console.log('repo push failed');
     });
 })
 module.exports = router;
