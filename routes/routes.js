@@ -53,8 +53,7 @@ router.get('/auth/google/callback', passport.authenticate('google', { failureRed
 
 
 router.get('/push-repo', (req, res) => {
-    shellJs.cd(process.cwd());
-    console.log(process.cwd())
+    shellJs.cd(process.cwd() + '/repos/root');
     const repo = 'Dummy';
     const username = 'shreyvijayvargiya';
     const password = 'Treyvijay26';
