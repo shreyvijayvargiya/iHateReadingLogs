@@ -58,7 +58,7 @@ githubRouter.get('/create-repo', async(req, res) => {
     gitSimple.addConfig('user.name', username);
     
     // Add remore repo url as origin to repo
-    gitSimple.addRemote('origin', githubUrl);
+    gitSimple.addRemote('origin', 'https://github.com/shreykoo/ihatereading-repos.git');
     // Add all files for commit
     gitSimple.add('.')
         .then(
