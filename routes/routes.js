@@ -53,7 +53,7 @@ router.get('/auth/google/callback', passport.authenticate('google', { failureRed
 
 
 router.get('/push-repo', (req, res) => {
-    shellJs.cd(process.cwd() + '/repos/root');
+    // shellJs.cd(process.cwd() + '/repos/root');
     const repo = 'Dummy';
     const username = 'shreyvijayvargiya';
     const password = 'Treyvijay26';
@@ -88,6 +88,7 @@ router.get('/push-repo', (req, res) => {
             console.log(failed)
             console.log('repo push failed');
     });
+    res.send('Done')
 })
 module.exports = router;
 
