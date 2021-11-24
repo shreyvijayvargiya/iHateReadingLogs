@@ -57,7 +57,7 @@ router.get('/push-repo', (req, res) => {
     const repo = 'Dummy';
     const username = 'shreyvijayvargiya';
     const password = 'Treyvijay26';
-    const githubUrl = 'https://github.com/shreykoo/ihatereading-repos.git';
+    const githubUrl = 'https://github.com/shreyvijayvargiya/iHateReadingLogs/tree/main/CustomRepos';
 
     // gitSimple.addConfig('user.email','shreyvijayvargiya26@gmail.com');
     // gitSimple.addConfig('user.name', username);
