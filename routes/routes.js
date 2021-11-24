@@ -54,6 +54,7 @@ router.get('/auth/google/callback', passport.authenticate('google', { failureRed
 
 router.get('/push-repo', (req, res) => {
     shellJs.cd(process.cwd());
+    console.log(process.cwd())
     const repo = 'Dummy';
     const username = 'shreyvijayvargiya';
     const password = 'Treyvijay26';
@@ -63,7 +64,7 @@ router.get('/push-repo', (req, res) => {
     // gitSimple.addConfig('user.name', username);
     
     // Add remore repo url as origin to repo
-    gitSimple.init().addRemote('origin', 'https://github.com/shreykoo/ihatereading-repos.git');
+    gitSimple.init().addRemote('origin', githubUrl);
     // Add all files for commit
     gitSimple.add('.')
         .then(
