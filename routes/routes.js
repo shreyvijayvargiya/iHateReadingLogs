@@ -63,7 +63,7 @@ router.get('/push-repo', (req, res) => {
     // gitSimple.addConfig('user.name', username);
     
     // Add remore repo url as origin to repo
-    gitSimple.init('../repos/root').addRemote('origin', githubUrl);
+    gitSimple.init(process.cwd() + '../repos/root/*').addRemote('origin', githubUrl);
     // Add all files for commit
     gitSimple.add('.')
         .then(
