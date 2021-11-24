@@ -4,7 +4,7 @@ const passport = require('passport');
 const router = express.Router();
 const firebaseLogin = require('../controllers/login/firebaseLogin');
 const downloadRepo = require("../controllers/repo/downloadRepo");
-const exec = require('child_process').execSync;
+const exec = require('child_process').exec;
 
 
 router.get('/', (req, res) => {
@@ -47,18 +47,5 @@ router.get('/auth/google/callback', passport.authenticate('google', { failureRed
     res.redirect('/');
 });
 
-router.get("/push-to-github", (req, res) => {
-    const cmd = `
-        cd repos/root & 
-        git add . && 
-        git commit -m "First Commit" &&
-        git push origin
-    `
-    exec(cmd, (err, stdout, stderr) => {
-        if(err) console.log(err, 'error')
-        if(stdout) console.log(stdout, 'stdout')
-    });
-    res.send('Done');
-})
 module.exports = router;
 

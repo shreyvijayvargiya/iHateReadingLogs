@@ -28,7 +28,7 @@ admin.initializeApp({
     projectId: process.env.FIREBASE_PROJECT_ID,
 })
 server.use(router);
-server.use(githubRouter);
+server.use('/github', githubRouter);
 
 
 server.listen(process.env.PORT || 4000, () => console.log('Server is running on port 4000'));

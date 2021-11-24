@@ -4,6 +4,12 @@ const githubRouter = express.Router();
 const getGithubUser = require("../../controllers/github/getGithubUser");
 const connectGithub = require("../../controllers/github/connectGithub");
 const createRepository = require("../../controllers/github/createRepository");
+const Octokit = require('@octokit/rest');
+const shellJs = require('shelljs');
+const simpleGit = require('simple-git');
+const simpleGitPromise = require('simple-git/promise');
+
+const gitSimple = simpleGit();
 
 let response = {
     token: String,
@@ -41,5 +47,39 @@ githubRouter.get("/getrepo",async (req, res) => {
 
 githubRouter.post("/v1/api/github/create-repository", createRepository);
 
+githubRouter.get('/create-repo', async(req, res) => {
+    shellJs.cd(process.cwd() + '/repos/root');
+    const repo = 'Dummy';
+    const username = 'shreyvijayvargiya';
+    const password = 'Treyvijay26';
+    const githubUrl = 'https://github.com/shreyvijayvargiya/iHateReadingLogs.git';
+    // simpleGit.addConfig('user.email','shreyvijayvargiya26@gmail.com');
+    // simpleGit.addConfig('user.name', username);
+    // Add remore repo url as origin to repo
+    gitSimple.addRemote('origin',githubUrl);
+    // Add all files for commit
+      gitSimple.add('.')
+        .then(
+           (addSuccess) => {
+              console.log(addSuccess);
+           }, (failedAdd) => {
+              console.log('adding files failed');
+        });
+    // Commit files as Initial Commit
+    gitSimple.commit('Intial commit by simplegit')
+       .then(
+          (successCommit) => {
+            console.log(successCommit);
+         }, (failed) => {
+            console.log('failed commmit');
+     });
+    // Finally push to online repository
+    gitSimple.push('origin','master')
+        .then((success) => {
+           console.log('repo successfully pushed');
+        },(failed)=> {
+           console.log('repo push failed');
+    });
+})
 
 module.exports = githubRouter;
