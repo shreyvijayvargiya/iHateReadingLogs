@@ -53,8 +53,10 @@ githubRouter.get('/create-repo', async(req, res) => {
     const username = 'shreyvijayvargiya';
     const password = 'Treyvijay26';
     const githubUrl = 'https://github.com/shreyvijayvargiya/iHateReadingLogs.git';
-    // simpleGit.addConfig('user.email','shreyvijayvargiya26@gmail.com');
-    // simpleGit.addConfig('user.name', username);
+    
+    gitSimple.addConfig('user.email','shreyvijayvargiya26@gmail.com');
+    gitSimple.addConfig('user.name', username);
+    
     // Add remore repo url as origin to repo
     gitSimple.addRemote('origin',githubUrl);
     // Add all files for commit
