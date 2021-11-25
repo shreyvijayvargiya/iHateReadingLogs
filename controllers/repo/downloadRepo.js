@@ -3,6 +3,9 @@ const checkUserValidity = require("../../utils/checkUserValidity");
 const path = require("path");
 const zipdir = require("zip-dir");
 const child_process = require("child_process").execFileSync;
+// const data = require('./data');
+const _ = require('lodash');
+const axios = require('axios');
 
 function createDirectory(pathname, name){
     fs.mkdirSync(path.join(process.cwd() + '/repos/' + pathname), { recursive: true }, (err) => {
@@ -71,4 +74,53 @@ const downloadRepo = async (req, res) => {
         res.send(dirBuffer);
     }
 };
-module.exports = downloadRepo;
+
+const createSandboxTreeFromRepoTree = async(req, res) => {
+    const data = req.body.tree;
+    let response = {
+        error: '',
+        message: '',
+        data: '',
+        status: ''
+    };
+    let directories = [];
+    let files = [];
+    function walkTree(tree){
+        tree.map(item => {
+            if(Array.isArray(item.children)){
+                directories.push(item);
+                walkTree(item.children);
+                return
+            }else {
+                files.push(item)
+                return
+            }
+        });
+    };
+    walkTree(data.children);
+    const sandBoxTree = {};
+    try {
+        files.map(item => {
+            const splitArrayLength = (item.path).split('/').length;
+            const joinPath = ((item.path).split('/')).slice(1, splitArrayLength).join('/');
+            sandBoxTree[joinPath] = { 'content': item.content };
+        });
+        const body = { "files": { ...sandBoxTree }};
+        await axios.post(process.env.CODE_SANDBOX_API, body, { headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        }}).then(resp => {
+            response.data = resp.data;
+            response.status = 200;
+        }).catch(error => {
+            console.log(error, 'error')
+            throw error;
+            return
+        });
+        // path will the name and content will be content
+        res.status(200).send(response);
+    }catch(error) {
+        res.send(error.message);
+    }
+}
+module.exports = { downloadRepo, createSandboxTreeFromRepoTree };
