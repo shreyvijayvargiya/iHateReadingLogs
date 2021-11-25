@@ -4,7 +4,6 @@ const passport = require('passport');
 const router = express.Router();
 const firebaseLogin = require('../controllers/login/firebaseLogin');
 const { downloadRepo, createSandboxTreeFromRepoTree } = require("../controllers/repo/downloadRepo");
-const exec = require('child_process').exec;
 
 const shellJs = require('shelljs');
 const simpleGit = require('simple-git');
@@ -51,7 +50,7 @@ router.get('/auth/google/callback', passport.authenticate('google', { failureRed
     res.redirect('/');
 });
 
-router.get('/custom-repo', (req, res) => res.send('New Custom Repo API '))
+router.get('/custom-repo', (req, res) => res.send('New Custom Repo API'))
 router.get('/run-custom-repo', createSandboxTreeFromRepoTree);
 module.exports = router;
 
