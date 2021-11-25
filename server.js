@@ -30,5 +30,5 @@ admin.initializeApp({
 server.use(router);
 server.use('/github', githubRouter);
 
-
+// Server Listening to PORT mentioned in env file
 server.listen(process.env.PORT || 4000, () => console.log('Server is running on port 4000'));
