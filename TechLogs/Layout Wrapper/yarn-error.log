@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.11/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.5
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26)
+
+npm manifest: 
+  {
+    "name": "newproj",
+    "description": "Next JS architecture repo",
+    "main": "pages/index.js",
+    "author": "shreyvijayvargiya",
+    "version": "1.0.0",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+      "autoprefixer": "^10.2.5",
+      "axios": "^0.21.1",
+      "next": "^10.0.8",
+      "postcss": "^8.2.12",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-query": "^3.19.6",
+      "tailwindcss": "^2.1.2"
+    },
+    "scripts": {
+      "dev": "next dev",
+      "start": "next start",
+      "build": "next build"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

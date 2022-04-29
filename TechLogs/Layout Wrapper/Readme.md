@@ -1,15 +1,15 @@
-<h1>React Query Introduction</h1>
+<h1>Layout Wrapper</h1>
 
 <h3>Purpose</h3>
-<p>This repo explains the React Query hooks</p>
+<p>This repo explains how to develop single layout wrapper component</p>
 
 <h3>Demo</h3>
-<img src="./public/demo.png" alt="React Query Introduction" />
+<img src="./public/demo.png" alt="Layout wrapper" />
 
 <h3>References</h3>
 <p>Read the article for better understanding</p>
 
-<a href="https://shreyvijayvargiya26.medium.com/3-steps-to-quickly-start-with-react-query-a3012c62b18b?source=your_stories_page-------------------------------------">Read Article</a>
+<a href="https://shreyvijayvargiya26.medium.com/developing-a-layout-wrapper-one-component-for-the-entire-website-51618d7de1b8">Read Article</a>
 
 <h3>How to run</h3>
  

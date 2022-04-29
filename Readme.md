@@ -1,4 +1,4 @@
-<h1>100 Days of code Challenge repository</h1>
+<h1>iHateReading Code Challenge repository</h1>
 <img src="./public/header.png" />
 
 <h3>Purpose</h3>
