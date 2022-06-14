@@ -1,0 +1,12 @@
+
+    node_modules
+
+    .next
+
+    yarn.lock
+
+    yarn-error.log
+
+    .DS_Store
+
+    .DS_store

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default as Home } from './home';","map":{"version":3,"names":["default","Home"],"sources":["/Users/shreyvijayvargiya/Desktop/Drag-Drop-Repo/components/index.jsx"],"sourcesContent":["export { default as Home } from './home';"],"mappings":"AAAA,SAASA,OAAO,IAAIC,IAApB,QAAgC,QAAhC"},"metadata":{},"sourceType":"module"}
