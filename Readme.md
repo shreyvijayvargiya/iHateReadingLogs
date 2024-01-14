@@ -1,8 +1,8 @@
-<h1>iHateReading Code Challenge repository</h1>
+<h1>iHateReading Examples Repository</h1>
 <img src="./public/header.png" />
 
 <h3>Purpose</h3>
-<p>This repository consits of all the tech logs articulated during the 100 days of code</p>
+<p>This repository consists of all the programming based logs</p>
 
 
 <h3>Documentation</h3>
